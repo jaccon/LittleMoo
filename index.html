@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogo com Controle pelo Teclado e Som</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<canvas id="gameCanvas"></canvas>
+
+<div id="scoreArea" style="position: absolute; top: 15px; left: 230px; background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; color: white;">
+  <div id="scoreText"></div>
+  <div id="phaseText"></div>
+  <progress id="progressBar" value="0" max="100" style="width: 800px"></progress>
+</div>
+
+<script src="script.js"></script>
+<script src="reset.js"></script>
+<script src="ps4-controller.js"></script>
+</body>
+</html>
